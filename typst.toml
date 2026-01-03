@@ -1,0 +1,15 @@
+[package]
+name = "scut-touying"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Petersburg16 <wming1116@icloud.com>"]
+description = "Touying slide theme for SCUT (South China University of Technology)"
+license = "MIT"
+keywords = ["touying", "slide","beamer", "presentation", "theme", "SCUT"]
+categories = ["presentation"]
+exclude = ["examples/"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.webp"
